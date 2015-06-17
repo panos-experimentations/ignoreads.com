@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" height="220" width="220">
+
+
+  <rect rx="0" width="220" height="220" fill="#aaa" fill-opacity="0.3"/>
+
+  <filter id="dropshadow" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/> <!-- stdDeviation is how much to blur -->
+    <feOffset dx="2" dy="2" result="offsetblur"/> <!-- how much to offset -->
+    <feMerge>
+      <feMergeNode/> <!-- this contains the offset blurred image -->
+      <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
+    </feMerge>
+	</filter>
+
+  <g fill="#555" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="17">
+    <text x="100" y="100" fill="#FF9C29" transform="rotate(90 150,150)" style="filter:url(#dropshadow)">under development</text>
+	</g>
+
+
+
+</svg>

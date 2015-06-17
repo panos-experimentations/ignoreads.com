@@ -1,0 +1,48 @@
+/*
+    Created on : Jan 26, 2015, 1:07:35 PM
+    Author     : Panajotis Zamos <aqw1137@gmail.com>
+*/
+
+.ha-about {
+  background-color: #282F37;
+  color: #EBF5F4;
+}
+.ha-projects {
+  background-color: #EBF5F4;
+  color: #262F34;
+}
+.ha-contact {
+  background-color: #3A444D;
+  color: #EBF5F6;
+}
+.ha-footer {
+  background-color: #282F37;
+  color: #576069;
+}
+
+.ha-white-text {
+  color: #ECF5F2;
+}
+.ha-green-text {
+  color: #4CBF7C;
+}
+.ha-bold {
+  font-weight: bold;
+}
+
+#projects p{
+  border-bottom: solid 2px #262F34;
+}
+#contact p{
+  border-bottom: solid 2px #4CBF7C;
+}
+
+/* Assets */
+
+.assets-example {
+  //border: solid 1px #000;
+}
+
+.asset-description {
+
+}

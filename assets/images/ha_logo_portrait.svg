@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="120" height="30" xmlns="http://www.w3.org/2000/svg">
+	<rect rx="0" width="60" height="30" fill="#E85160"/>
+	<rect rx="0" width="60" height="30" fill="#51B179" x="60"/>
+	<!--path fill="#007ec6" d="M31 0h4v18h-4z"/-->
+	<!--rect rx="4" width="90" height="22" fill="url(#a)"/-->
+
+	<g font-size="12" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" text-anchor="middle" fill="#fff">
+		<text fill-opacity=".3" fill="#010101" y="20" x="30">holistic</text>
+		<text y="19" x="30">holistic</text>
+
+	</g>
+<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12">
+		<text x="88" y="20" fill="#010101" fill-opacity=".3">agency</text>
+		<text x="88" y="19">agency</text>
+	</g>
+</svg>
+
