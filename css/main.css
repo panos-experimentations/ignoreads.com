@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =reset.css (by Andy Clarke) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin : 0; padding : 0; border : 0; outline : 0; font-weight : inherit; font-style : inherit; font-size : 100%; font-family : inherit; vertical-align: baseline; background:transparent; }
+
+/* =clear */
+.clear { clear: both; font-size: 1px; line-height: 0; }
+/* =clearfix */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block;}
+/* Hides from IE-mac \*/ * html .clearfix {height: 1%;} .clearfix {display: block;} /* End hide from IE-mac */
+
+ol, ul {list-style: none;}
+
+strong { font-weight:bold;}
+em {font-style: italic;}
+a {text-decoration: none; color: white;}
+a:hover {color: #f4a556;}
+
+* { margin: 0; }
+html, body { height: 100%; }
+
+.last {margin: 0 !important;}
+
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
+	padding:0;border:0 none;-moz-box-sizing:content-box;}
+
+input[type='text'],  input[type='submit'], textarea  { -webkit-appearance: none; -moz-appearance: none; appearance: none; -webkit-border-radius:0;}
+
+/* ---- custom --- */
+
+strong {font-weight:bold;}
+
+/* ========================================== homepage ============================================== */
+.container-fluid.homepage {margin-top: 15%;}
+.container-fluid.homepage .img-responsive {display: inline;}
+.container-fluid.homepage p {font-size: 25px; color: #4b5461; font-weight: 300; margin-top: 20px;text-transform: uppercase;}
+
+
+
+/* ========================================== development ============================================== */
+
+body {font-family: 'Roboto', sans-serif;color: #333;}
+.italic {font-weight:bold; font-style: italic;}
+a {-webkit-transition: all 300ms ease-out;-moz-transition: all 300ms ease-out;-o-transition: all 300ms ease-out;-ms-transition: all 300ms ease-out;transition: all 300ms ease-out;}
+
+/* ========================================== overwrite ============================================== */
+/*  intro */
+.intro .intro-body h1.brand-heading {font-size: 80px;font-weight: bold; font-family: 'Roboto Condensed', sans-serif; text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);margin-bottom: 120px;}
+.intro .intro-body .intro-text {font-weight: 300;font-size: 40px; text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);}
+.navbar-custom.navbar-fixed-top  {padding: 20px 0;}
+ /*  idea  */
+#idea.content-section {padding: 80px 0 80px 0;}
+#who.content-section {padding-top: 00px;}
+
+.navbar-custom {padding: 10px 0; border-bottom: 1px solid #c7c7c7;  background-color: transparent;}
+a.navbar-brand.page-scroll {padding: 0;}
+ul.nav.navbar-nav {text-transform: none;}
+.navbar-fixed-top {position: absolute;}
+
+/*  idea  */
+
+.intro {  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;}
+
+.navbar-brand {height: 71px;}
+
+section#idea h2 {font-size: 50px; font-weight: 300; color: #4d9de0;text-transform: none;margin-bottom: 50px;}
+section#idea p {font-size: 35px; font-weight: 300; color: #4b5461;margin-bottom: 70px;}
+section#idea .col-lg-4 img {margin-bottom: 30px;}
+section#idea .col-lg-4 h2 {font-size: 70px; margin-bottom: 40px;}
+section#idea .col-lg-4 h2 span {font-size: 90px; padding-right: 37px;}
+section#idea .col-lg-4 p {font-size: 25px; font-weight: 300;line-height: 1.3;margin-bottom: 0;}
+
+/*  who?  */
+.who-section { color: #fff; font-size: 25px; font-weight: 300;padding: 80px 0 10px 0;  background: #4d9de0 url(../img/who-bg.jpg) no-repeat center center scroll; -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+.who-section .container.desc-container {margin-bottom: 80px;}
+.who-section .container.text-center.contact {padding-bottom: 40px;}
+.who-section .footer {color: #b1d0eb; font-size: 14px;}
+.who-section .footer a {color: #b1d0eb;}
+.who-section .footer a:hover {color: #fff;}
+.who-section h2 {font-size: 50px; font-weight: 300; color: #fff;text-transform: none;margin-bottom: 50px;}
+.who-section p.maybe-you {font-size: 35px; font-weight: bold;padding-bottom: 40px;}
+.who-section p.who-desc {padding-bottom: 60px;}
+.who-section img {margin-bottom: 45px;}
+.who-section span.contact-title {font-size: 35px;}
+.who-section span.contact-title a {color: #fff;font-weight: bold;}
+.who-section span.contact-title a:hover {color: #b1d0eb;}
+
+.fa {color: white;}
+
+/* ========================================== media ============================================== */
+
+@media (max-width: 767px) {
+    .intro {  background: url(../img/intro-bg-small.jpg) no-repeat bottom center scroll;}
+    .navbar-custom {background-color: #0c1d23; opacity: 0.9;border-bottom: 1px solid #1F2F34;}
+    .container>.navbar-header {margin-right: 2%;margin-left: 2%;}
+    .intro .intro-body h1.brand-heading {font-size: 60px; margin: 40px 0 27px 0;}
+    
+    section#idea .col-lg-4 {margin-top: 40px; border-bottom: 1px solid #efefef;}  
+    section#idea .col-lg-4:last-child {border-bottom: transparent;} 
+    section#idea .col-lg-4 img {margin-bottom: 0;}
+    section#idea .col-lg-4 h2 {margin-bottom: 30px;}
+    section#idea .col-lg-4 p {margin-bottom: 50px;}
+    section#idea .col-lg-4 p:last-child {margin-bottom: 0;}
+ }
+
+@media (max-width: 480px) {
+    .container-fluid.homepage .img-responsive {width: 90%;}
+    .container-fluid.homepage p {font-size: 20px;}
+
+    
+    .navbar-brand {width: 70%;}
+    .intro .intro-body h1.brand-heading {font-size: 50px; margin: 50px 0 30px 0;}
+    .intro .intro-body .intro-text { font-size: 25px;}
+    .who-section span.contact-title a {font-size: 25px;}
+}
+
+@media (min-width: 768px) {
+    .intro .intro-body h1.brand-heading {font-size: 80px; margin: 200px 0 80px 0;}
+    .intro .intro-body .intro-text {font-size: 45px; margin: 0 0 80px 0;}
+}
+
+
+
+
+
+
+
